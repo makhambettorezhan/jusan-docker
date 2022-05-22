@@ -12,3 +12,4 @@ docker run \
   nginx:mainline
 
 docker exec jusan-docker-mount rm /etc/nginx/conf.d/default.conf
+docker exec jusan-docker-mount nginx -s reload
